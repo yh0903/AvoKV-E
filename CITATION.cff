@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+message: "If you use AvoKV-E, please cite our paper."
+title: "AvoKV-E: Payload-Aware KV Cache Eviction for Long Reasoning"
+type: software
+version: 0.1.0
+date-released: 2026-10-02
+url: "https://github.com/yh0903/AvoKV-E"
+repository-code: "https://github.com/yh0903/AvoKV-E"
+license: Apache-2.0
+authors:
+  - given-names: Han
+    family-names: Yu
+  - given-names: Wenhui
+    family-names: Zhu
+  - given-names: Xiwen
+    family-names: Chen
+  - given-names: Zhipeng
+    family-names: Wang
+  - given-names: Hejian
+    family-names: Sang
+  - given-names: Han
+    family-names: Shi
+  - given-names: Menglin
+    family-names: Zhou
+  - given-names: Xuanzhao
+    family-names: Dong
+  - given-names: Minzhou
+    family-names: Huang
+  - given-names: Rui
+    family-names: Cai
+  - given-names: Hao
+    family-names: Wang
+  - given-names: Alborz
+    family-names: Geramifard
+preferred-citation:
+  type: article
+  title: "AvoKV-E: Payload-Aware KV Cache Eviction for Long Reasoning"
+  year: 2026
+  authors:
+    - given-names: Han
+      family-names: Yu
+    - given-names: Wenhui
+      family-names: Zhu
+    - given-names: Xiwen
+      family-names: Chen
+    - given-names: Zhipeng
+      family-names: Wang
+    - given-names: Hejian
+      family-names: Sang
+    - given-names: Han
+      family-names: Shi
+    - given-names: Menglin
+      family-names: Zhou
+    - given-names: Xuanzhao
+      family-names: Dong
+    - given-names: Minzhou
+      family-names: Huang
+    - given-names: Rui
+      family-names: Cai
+    - given-names: Hao
+      family-names: Wang
+    - given-names: Alborz
+      family-names: Geramifard
+  identifiers:
+    - type: doi
+      value: "10.48550/arXiv.2610.03007"
+  url: "https://arxiv.org/abs/2610.03007"

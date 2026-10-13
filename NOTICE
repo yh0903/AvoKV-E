@@ -1,0 +1,16 @@
+AvoKV-E
+Copyright 2026 AvoKV-E authors
+
+The Hugging Face model integration and mathematical evaluator include code
+adapted from R-KV, released under the Apache License 2.0:
+
+  R-KV: Redundancy-aware KV Cache Compression for Reasoning Models
+  https://github.com/Zefan-Cai/R-KV
+  https://arxiv.org/abs/2505.24133
+
+The evaluator inherited by R-KV includes attribution to the Hendrycks MATH
+release, Microsoft ProphetNet/CRITIC, OpenAI PRM800K, Microsoft ToRA, and
+DeepSeek-Math. Those attributions are retained in
+src/avokv/evaluation/grader.py.
+
+No SGLang or vLLM source code is included in this repository.

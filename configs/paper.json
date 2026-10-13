@@ -1,0 +1,23 @@
+{
+  "budget_scope": "decode",
+  "observation_window": 8,
+  "delay_rule": {
+    "budget_lte_512": 32,
+    "budget_gte_768": 8
+  },
+  "lambda_p": 0.1,
+  "lambda_r": 0.9,
+  "lambda_b": 0.05,
+  "first_tokens": 4,
+  "selection_scope": "shared",
+  "redundancy_neighborhood": "local",
+  "redundancy_radius": 8,
+  "compression_interval": 128,
+  "max_total_tokens": 32768,
+  "eval_batch_size": 1,
+  "sampling": {
+    "do_sample": true,
+    "temperature": 0.6,
+    "top_p": 0.95
+  }
+}

@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+build/
+dist/
+
+# Model, dataset, and experiment artifacts
+data/
+outputs/
+checkpoints/
+*.jsonl
+*.log
+*.out
+*.err
+
+# Local editor and OS files
+.DS_Store
+.idea/
+.vscode/
